@@ -1,0 +1,26 @@
+{
+  "name": "stack-switch",
+  "version": "0.1.0",
+  "description": "Deterministic CLI to understand repository stack and migration readiness",
+  "license": "MIT",
+  "type": "module",
+  "bin": {
+    "stack-switch": "dist/cli/index.js"
+  },
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "dev": "node --loader ts-node/esm src/cli/index.ts",
+    "typecheck": "tsc --noEmit -p tsconfig.json",
+    "test": "npm run build && node --test tests/golden/summary.test.mjs",
+    "lint": "npm run typecheck"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^22.13.11",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.8.2"
+  }
+}

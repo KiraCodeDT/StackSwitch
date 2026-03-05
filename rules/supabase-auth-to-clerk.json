@@ -1,0 +1,14 @@
+{
+  "from": "supabase-auth",
+  "to": "clerk",
+  "patterns": [
+    "@supabase/supabase-js",
+    "supabase.auth"
+  ],
+  "steps": [
+    "Replace Supabase client bootstrap with Clerk provider setup.",
+    "Update auth middleware and route guards to Clerk APIs.",
+    "Replace session and user hooks with Clerk equivalents.",
+    "Rotate auth environment variables and callback configuration."
+  ]
+}

@@ -1,0 +1,7 @@
+{
+  "name": "fixture-vue-firebase",
+  "dependencies": {
+    "vue": "3.0.0",
+    "firebase": "10.0.0"
+  }
+}
