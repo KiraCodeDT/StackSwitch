@@ -1,4 +1,4 @@
-# StackSwitch Doc
+# StackSwitch Documanation
 
 StackSwitch is a deterministic CLI that helps developers understand unfamiliar repositories quickly.
 
