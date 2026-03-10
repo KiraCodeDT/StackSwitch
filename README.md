@@ -1,4 +1,4 @@
-# StackSwitch
+# StackSwitch Doc
 
 StackSwitch is a deterministic CLI that helps developers understand unfamiliar repositories quickly.
 
